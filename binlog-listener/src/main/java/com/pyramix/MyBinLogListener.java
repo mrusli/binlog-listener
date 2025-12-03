@@ -38,7 +38,7 @@ public class MyBinLogListener {
 					// long tableId = tableMapEventData.getTableId();
 					String databaseName = tableMapEventData.getDatabase();
 					String tableName = tableMapEventData.getTable();
-					log.info("database={}, table={}",databaseName,tableName);
+					log.info("database={}, table={}", databaseName, tableName);
 				}
 				if (eventType == EventType.EXT_UPDATE_ROWS) {
 					UpdateRowsEventData updateRowsEventData = event.getData();
