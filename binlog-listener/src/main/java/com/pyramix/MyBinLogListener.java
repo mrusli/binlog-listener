@@ -17,7 +17,7 @@ public class MyBinLogListener {
 	private static final Logger log = LoggerFactory.getLogger(MyBinLogListener.class);
 	
 	public static void main(String[] args) throws IllegalStateException, IOException {
-		log.info("HelloWorld!!!!");
+		log.info("HelloWorld!!!!!");
 		BinaryLogClient client = new BinaryLogClient(
 					"192.168.100.203",
 					3306,
