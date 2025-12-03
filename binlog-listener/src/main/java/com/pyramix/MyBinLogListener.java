@@ -19,8 +19,8 @@ public class MyBinLogListener {
 	public static void main(String[] args) throws IllegalStateException, IOException {
 		log.info("HelloWorld!!!!");
 		BinaryLogClient client = new BinaryLogClient(
-					"localhost",
-					3304,
+					"192.168.100.203",
+					3306,
 					"e021_swi_core",
 					"root",
 					"password"
